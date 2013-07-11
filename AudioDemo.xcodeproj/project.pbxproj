@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C8C9CD178D7665000191E7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C4178D7665000191E7 /* Icon-72.png */; };
+		49C8C9CE178D7665000191E7 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C5178D7665000191E7 /* Icon-72@2x.png */; };
+		49C8C9CF178D7665000191E7 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C6178D7665000191E7 /* Icon-Small-50.png */; };
+		49C8C9D0178D7665000191E7 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C7178D7665000191E7 /* Icon-Small-50@2x.png */; };
+		49C8C9D1178D7665000191E7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C8178D7665000191E7 /* Icon-Small.png */; };
+		49C8C9D2178D7665000191E7 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9C9178D7665000191E7 /* Icon-Small@2x.png */; };
+		49C8C9D3178D7665000191E7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9CA178D7665000191E7 /* Icon.png */; };
+		49C8C9D4178D7665000191E7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9CB178D7665000191E7 /* Icon@2x.png */; };
+		49C8C9D5178D7665000191E7 /* ItunesArtWork.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C8C9CC178D7665000191E7 /* ItunesArtWork.png */; };
 		49DDE0D7178BF70D006ED764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDE0D6178BF70D006ED764 /* UIKit.framework */; };
 		49DDE0D9178BF70D006ED764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDE0D8178BF70D006ED764 /* Foundation.framework */; };
 		49DDE0DB178BF70D006ED764 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDE0DA178BF70D006ED764 /* CoreGraphics.framework */; };
@@ -21,6 +30,14 @@
 		49DDE0F7178BF70E006ED764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDE0D8178BF70D006ED764 /* Foundation.framework */; };
 		49DDE0FF178BF70E006ED764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE0FD178BF70E006ED764 /* InfoPlist.strings */; };
 		49DDE102178BF70E006ED764 /* AudioDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DDE101178BF70E006ED764 /* AudioDemoTests.m */; };
+		49DDE10E178BFC87006ED764 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DDE10C178BFC87006ED764 /* MainViewController.m */; };
+		49DDE10F178BFC87006ED764 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE10D178BFC87006ED764 /* MainViewController.xib */; };
+		49DDE113178C2D08006ED764 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDE112178C2D08006ED764 /* AVFoundation.framework */; };
+		49DDE116178C3E2D006ED764 /* MicButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE114178C3E2D006ED764 /* MicButton.png */; };
+		49DDE117178C3E2D006ED764 /* MicButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE115178C3E2D006ED764 /* MicButtonPressed.png */; };
+		49DDE11A178CB9AD006ED764 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE118178CB9AD006ED764 /* play.png */; };
+		49DDE11B178CB9AD006ED764 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE119178CB9AD006ED764 /* pause.png */; };
+		49DDE11D178CBA8C006ED764 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDE11C178CBA8C006ED764 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49C8C9C4178D7665000191E7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		49C8C9C5178D7665000191E7 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		49C8C9C6178D7665000191E7 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		49C8C9C7178D7665000191E7 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		49C8C9C8178D7665000191E7 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		49C8C9C9178D7665000191E7 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		49C8C9CA178D7665000191E7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		49C8C9CB178D7665000191E7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		49C8C9CC178D7665000191E7 /* ItunesArtWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItunesArtWork.png; sourceTree = "<group>"; };
 		49DDE0D3178BF70D006ED764 /* AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DDE0D6178BF70D006ED764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49DDE0D8178BF70D006ED764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +79,15 @@
 		49DDE0FE178BF70E006ED764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49DDE100178BF70E006ED764 /* AudioDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioDemoTests.h; sourceTree = "<group>"; };
 		49DDE101178BF70E006ED764 /* AudioDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioDemoTests.m; sourceTree = "<group>"; };
+		49DDE10B178BFC87006ED764 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49DDE10C178BFC87006ED764 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49DDE10D178BFC87006ED764 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		49DDE112178C2D08006ED764 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		49DDE114178C3E2D006ED764 /* MicButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MicButton.png; sourceTree = "<group>"; };
+		49DDE115178C3E2D006ED764 /* MicButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MicButtonPressed.png; sourceTree = "<group>"; };
+		49DDE118178CB9AD006ED764 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		49DDE119178CB9AD006ED764 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		49DDE11C178CBA8C006ED764 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DDE113178C2D08006ED764 /* AVFoundation.framework in Frameworks */,
 				49DDE0D7178BF70D006ED764 /* UIKit.framework in Frameworks */,
 				49DDE0D9178BF70D006ED764 /* Foundation.framework in Frameworks */,
 				49DDE0DB178BF70D006ED764 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +118,8 @@
 		49DDE0CA178BF70D006ED764 = {
 			isa = PBXGroup;
 			children = (
+				49DDE111178BFF51006ED764 /* Images */,
+				49DDE110178BFC8F006ED764 /* ViewControllers */,
 				49DDE0DC178BF70D006ED764 /* AudioDemo */,
 				49DDE0FA178BF70E006ED764 /* AudioDemoTests */,
 				49DDE0D5178BF70D006ED764 /* Frameworks */,
@@ -101,6 +139,7 @@
 		49DDE0D5178BF70D006ED764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49DDE112178C2D08006ED764 /* AVFoundation.framework */,
 				49DDE0D6178BF70D006ED764 /* UIKit.framework */,
 				49DDE0D8178BF70D006ED764 /* Foundation.framework */,
 				49DDE0DA178BF70D006ED764 /* CoreGraphics.framework */,
@@ -150,6 +189,37 @@
 				49DDE0FD178BF70E006ED764 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49DDE110178BFC8F006ED764 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49DDE10B178BFC87006ED764 /* MainViewController.h */,
+				49DDE10C178BFC87006ED764 /* MainViewController.m */,
+				49DDE10D178BFC87006ED764 /* MainViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49DDE111178BFF51006ED764 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49DDE11C178CBA8C006ED764 /* background.png */,
+				49DDE118178CB9AD006ED764 /* play.png */,
+				49C8C9C4178D7665000191E7 /* Icon-72.png */,
+				49C8C9C5178D7665000191E7 /* Icon-72@2x.png */,
+				49C8C9C6178D7665000191E7 /* Icon-Small-50.png */,
+				49C8C9C7178D7665000191E7 /* Icon-Small-50@2x.png */,
+				49C8C9C8178D7665000191E7 /* Icon-Small.png */,
+				49C8C9C9178D7665000191E7 /* Icon-Small@2x.png */,
+				49C8C9CA178D7665000191E7 /* Icon.png */,
+				49C8C9CB178D7665000191E7 /* Icon@2x.png */,
+				49C8C9CC178D7665000191E7 /* ItunesArtWork.png */,
+				49DDE119178CB9AD006ED764 /* pause.png */,
+				49DDE114178C3E2D006ED764 /* MicButton.png */,
+				49DDE115178C3E2D006ED764 /* MicButtonPressed.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +297,21 @@
 				49DDE0E9178BF70D006ED764 /* Default.png in Resources */,
 				49DDE0EB178BF70D006ED764 /* Default@2x.png in Resources */,
 				49DDE0ED178BF70D006ED764 /* Default-568h@2x.png in Resources */,
+				49DDE10F178BFC87006ED764 /* MainViewController.xib in Resources */,
+				49DDE116178C3E2D006ED764 /* MicButton.png in Resources */,
+				49DDE117178C3E2D006ED764 /* MicButtonPressed.png in Resources */,
+				49DDE11A178CB9AD006ED764 /* play.png in Resources */,
+				49DDE11B178CB9AD006ED764 /* pause.png in Resources */,
+				49DDE11D178CBA8C006ED764 /* background.png in Resources */,
+				49C8C9CD178D7665000191E7 /* Icon-72.png in Resources */,
+				49C8C9CE178D7665000191E7 /* Icon-72@2x.png in Resources */,
+				49C8C9CF178D7665000191E7 /* Icon-Small-50.png in Resources */,
+				49C8C9D0178D7665000191E7 /* Icon-Small-50@2x.png in Resources */,
+				49C8C9D1178D7665000191E7 /* Icon-Small.png in Resources */,
+				49C8C9D2178D7665000191E7 /* Icon-Small@2x.png in Resources */,
+				49C8C9D3178D7665000191E7 /* Icon.png in Resources */,
+				49C8C9D4178D7665000191E7 /* Icon@2x.png in Resources */,
+				49C8C9D5178D7665000191E7 /* ItunesArtWork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +348,7 @@
 			files = (
 				49DDE0E3178BF70D006ED764 /* main.m in Sources */,
 				49DDE0E7178BF70D006ED764 /* AppDelegate.m in Sources */,
+				49DDE10E178BFC87006ED764 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +521,7 @@
 				49DDE107178BF70E006ED764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49DDE108178BF70E006ED764 /* Build configuration list for PBXNativeTarget "AudioDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +530,7 @@
 				49DDE10A178BF70E006ED764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
