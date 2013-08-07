@@ -88,6 +88,7 @@
 		49DDE118178CB9AD006ED764 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		49DDE119178CB9AD006ED764 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		49DDE11C178CBA8C006ED764 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		49F5F93817B0FEC1001B2603 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +140,7 @@
 		49DDE0D5178BF70D006ED764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49F5F93817B0FEC1001B2603 /* QuartzCore.framework */,
 				49DDE112178C2D08006ED764 /* AVFoundation.framework */,
 				49DDE0D6178BF70D006ED764 /* UIKit.framework */,
 				49DDE0D8178BF70D006ED764 /* Foundation.framework */,
@@ -452,6 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioDemo/AudioDemo-Prefix.pch";
 				INFOPLIST_FILE = "AudioDemo/AudioDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,6 +482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioDemo/AudioDemo-Prefix.pch";
 				INFOPLIST_FILE = "AudioDemoTests/AudioDemoTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;

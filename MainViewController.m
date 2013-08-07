@@ -27,12 +27,14 @@
     [super viewDidLoad];
     self.playButton.hidden = YES;
     
+    //配置Recorder，
     NSDictionary *recordSetting = [NSDictionary dictionaryWithObjectsAndKeys:
                                    [NSNumber numberWithInt:AVAudioQualityLow],AVEncoderAudioQualityKey,
                                    [NSNumber numberWithInt:16],AVEncoderBitRateKey,
                                    [NSNumber numberWithInt:2],AVNumberOfChannelsKey,
                                    [NSNumber numberWithFloat:44100.0],AVSampleRateKey,
                                    nil];
+    //录音文件保存地址的URL
     NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/record.caf", [[NSBundle mainBundle] resourcePath]]];    
     NSError *error = nil;
     self.audioRecorder = [[ AVAudioRecorder alloc] initWithURL:url settings:recordSetting error:&error];
@@ -40,6 +42,7 @@
     if (error != nil) {
         NSLog(@"Init audioRecorder error: %@",error);
     }else{
+        //准备就绪，等待录音，注意该方法会返回Boolean，最好做个成功判断，因为其失败的时候无任何错误信息抛出
         if ([self.audioRecorder prepareToRecord]) {
             NSLog(@"Prepare successful");
         }
