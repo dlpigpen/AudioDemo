@@ -23,7 +23,6 @@
 
 - (void)testExample
 {
-//    STFail(@"Unit tests are not implemented yet in AudioDemoTests");
     STAssertFalse(false, @"Simply pass");
 }
 
@@ -31,5 +30,11 @@
 {
     STAssertEqualObjects(@"a", @"a", @"Should be equal");
 }
+
+- (void)testExample3
+{
+    STAssertNil(nil, @"Should be nil");
+}
+
 
 @end
