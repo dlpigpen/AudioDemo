@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="AllTestUnits" tests="1" failures="1" errors="0" time="0.003867">
-	<testsuite name="AudioDemoTests" tests="1" failures="1" errors="0" time="0.003867" timestamp="2013-08-07T15:59:33GMT+08:00">
-		<testcase classname="AudioDemoTests" name="testExample" time="0.003702">
-			<failure message="Unit tests are not implemented yet in AudioDemoTests" type="Failure">/Users/twer/Documents/workspace/xcode_workspace/AudioDemo/AudioDemoTests/AudioDemoTests.m:26</failure>
+<testsuites name="AllTestUnits" tests="2" failures="0" errors="0" time="0.003911">
+	<testsuite name="AudioDemoTests" tests="2" failures="0" errors="0" time="0.003911" timestamp="2013-08-07T16:44:56GMT+08:00">
+		<testcase classname="AudioDemoTests" name="testExample" time="0.003633">
+		</testcase>
+		<testcase classname="AudioDemoTests" name="testExample2" time="0.000057">
 		</testcase>
 	</testsuite>
 </testsuites>

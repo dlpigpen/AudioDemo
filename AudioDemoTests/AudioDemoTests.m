@@ -27,4 +27,9 @@
     STAssertFalse(false, @"Simply pass");
 }
 
+- (void)testExample2
+{
+    STAssertEqualObjects(@"a", @"a", @"Should be equal");
+}
+
 @end
